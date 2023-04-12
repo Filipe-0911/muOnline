@@ -27,7 +27,7 @@ h1 {
     border-radius: 10px;
     font-family: 'Chilanka';
     padding-top: 9px;
-    background: rgba(100, 0, 0, 0.99);
+    background: rgba(100, 0, 0, 0.5);
     border: 5px solid black;
 }
 a {
@@ -154,7 +154,7 @@ p {
     word-spacing: 0px;
     line-height: 30px;
     margin: auto 20%;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.3);
 }
 li:hover {
     background-color: #B2B4BD;
