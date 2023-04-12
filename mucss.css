@@ -186,6 +186,7 @@ h2 {
 @media (max-width: 1037px) {
     body {
         font-size:15px;
+         margin: auto 18%;
     }
     .links nav li{
         font-size: 15px;
