@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Página de Cadastro</title>
+	<link rel="stylesheet" href="mucss.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Chilanka&family=Indie+Flower&family=Roboto:ital,wght@1,100&display=swap"
+		rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<body>
+	<header>
+		<div class="links">
+			<ol>
+				<nav>
+					<li><a href="index.html" >Home</a></li>
+					<li><a href="cadastro.html" >Cadastrar</a></li>
+					<li><a href="login.html" >Login</a></li>
+				</nav>
+			</ol>
+		</div>
+	</header>
+	<main>
+		</div>
+		<h1>Cadastrar</h1>
+		<div class="cadastro">
+			<!--<h2>Área de cadastro</h2>-->
+			<form action="cad-ok.html" method="GET">
+			<fieldset>
+				 <legend>Dados do cadastro</legend>
+				<label>Login:
+					</br>
+					<input type="text" name="login" required minlength="6" maxlength="10" />
+					</br>
+				</label>
+
+				<label>Senha:
+					</br>
+					<input type="password" name="senha" required minlength="6" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Deve conter pelo menos um número, uma letra maiúscula e uma letra minúscula, e pelo menos 6 ou mais caracteres." />
+				</label>
+
+				<label>Confirme a Senha:
+					</br>
+					<input type="password" name="senha" required minlength="6" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Deve conter pelo menos um número, uma letra maiúscula e uma letra minúscula, e pelo menos 6 ou mais caracteres." />
+				</label>
+
+				<label>Email:
+					</br>
+					<input type="email" name="Email" required />
+				</label>
+				<label>Confirme o Email:
+					</br>
+					<input type="email" name="Email" required />
+				</label>
+
+				<label>Pergunta:
+					</br>
+					<input type="text" name="pergunta" required minlength="2" maxlength="8"/>
+				</label>
+
+				<label>Resposta:
+					</br>
+					<input type="text" name="numeros" required minlength="3" maxlength="8"/>
+				</label>
+
+				<label>Data de nascimento:
+					</br>
+					<input type="date" name="nascimento" required />
+				</label>
+
+				<label>Sexo:</br>
+					<select name="sexo" required>
+						<option></option>
+						<option value="masc" style="text-align: center;">Masculino</option>
+						<option value="fem" style="text-align: center;">Feminino</option>
+					</select>
+				</label>
+				<!--<input type="color" name="cor" />
+</br>-->
+				<label><input type="checkbox" required>
+					Declaro que li e aceito os <a href="termos.html" target="_blank">termos</a> de uso.
+				</label>
+				</br>
+				<button>Fazer Cadastro!</button>
+			</fieldset>
+			</form>
+		</div>
+
+		</br>
+
+		<div class="login">
+			<h2>Já é cadastrado? clique <a href="login.html">aqui</a> para fazer o login.</h2>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="direitos">
+			Direitos Autorais: Filipe de Bianchi Andrade
+		</div>
+	</footer>
+</body>
+
+</html>
