@@ -165,7 +165,7 @@ li:hover {
     font-weight: bold;
     border: 2px solid #f8f8f8;
     padding: 5px;
-    /*margin-right: 20px;*/
+    margin-right: 20px;
     color: #000000;
     text-align: center;
     float:initial; 
@@ -186,8 +186,8 @@ h2 {
 @media (max-width: 1037px) {
     body {
         font-size:15px;
-         margin: auto 30%;
-    }
+}
+    
     .links nav li{
         font-size: 15px;
     }
