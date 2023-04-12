@@ -120,7 +120,6 @@ button:hover {
     padding: 15px;
 }
 .direitos {
-    /*background-image:url(https://as1.ftcdn.net/v2/jpg/05/21/33/56/1000_F_521335684_D9yZn2OP3m8awgJnlJnllxZ7nlU3EcxN.jpg);*/
     background-color: rgba(0, 0, 0, 0.9);
     padding:70px;
     color:white;
@@ -191,7 +190,10 @@ h2 {
     .links nav li{
         font-size: 15px;
     }
-    
+    p, form {
+        margin:auto 50%
+    }
+        
 }
 @media (max-width: 990px) {
     body {
