@@ -1,0 +1,292 @@
+body {
+    margin:0px;
+    background-image: url(../img/wallpaper2-mu.jpg);
+    color:white;
+}
+.links {
+    text-align: left;
+    font-size:17px;
+    font-weight:bolder;
+    font-family: 'Chilanka';
+    background: rgba(0, 0, 0, 0.75);
+    
+    position: fixed;
+    right: 0;
+    top: 40px;
+    width: 9em;
+    margin-top: -2.5em;
+}
+.links ol nav li {
+    display: inline;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+    float:left;
+    padding-left:0px;
+}
+li:hover {
+    color:white;
+}
+.login {
+    font-family: 'Chilanka';
+    text-align:center; 
+}
+h1 {
+    text-align: center;
+    font-size: 23px;
+    margin: auto 40%;
+    border-radius: 10px;
+    font-family: 'Chilanka';
+    padding-top: 9px;
+    background: rgba(100, 0, 0, 0.8);
+    border: 5px solid black;
+}
+a {
+    text-decoration: none;
+    color: white;
+    text-align:center;  
+}
+a:hover{
+    color:blue;
+}
+.opinioes {
+    text-align:center;
+    margin:30px;
+    font-family:'Chilanka';
+}
+label {
+    font-size: 15px;
+    display: block;
+}
+fieldset {
+    text-align:center;
+    font-family: 'Chilanka';
+    background: rgba(42, 44, 44, 0.5);
+    margin: auto 18%;
+    border-radius: 10px;
+    border: 5px double white;
+    padding-bottom: 30px;
+}
+legend {
+    border:5px double white;
+    border-radius: 10px;
+    padding:10px;
+    font-size:17px;
+    background-color: black;
+}
+.cadastro input[type=text], select {
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 5px solid black;
+    outline: 0;
+    margin-bottom: 5px;
+}
+.cadastro input[type=password] {
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 5px solid black;
+    outline: 0;
+    margin-bottom: 5px;
+}
+.cadastro input[type=email] {
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 5px solid black;
+    outline: 0;
+    margin-bottom: 5px;
+}
+.cadastro input[type=date] {
+    outline: 0;
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 5px solid black;
+    outline: 0;
+    margin-bottom: 5px;
+}
+.login input {
+    width: 200px;
+    padding: 5px;
+    border: 5px solid black;
+    outline: 0;
+}
+.opinioes textarea{
+    border: 5px solid black;
+}
+input:hover, textarea:hover, select:hover {
+    background-color: #B2B4BD;
+}
+button {
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid #1b1210;
+    background-color: #9db0b1;
+    color: #ffffff;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: #5b6263;
+    cursor:pointer;
+}
+.direitos {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding:50px;
+    color:white;
+    text-align:center;
+    font-family: 'Chilanka';
+}
+html, body {
+    min-height: 100%;
+}
+body{
+    padding:0;
+    margin:0;
+}
+footer {
+    position: absolute;
+    color: #FFF;
+    width: 100%;
+    height: 5px;    
+    text-align: center;
+    line-height: 50px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    color: #FFF;
+    width: 100%;
+    height: 5px;    
+    text-align: center;
+    line-height: 50px;
+}
+p {
+    color: #f0f8ff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Chilanka';
+    text-align: center;
+    text-transform: normal;
+    word-spacing: 0px;
+    line-height: 30px;
+    margin: auto 15%;
+    background: rgba(0, 0, 0, 0.5);
+}
+h2 {
+    color: whitesmoke;
+}
+@media (max-width: 1109px){
+    body {
+        font-size: 15px;
+    }
+    .links nav li{
+        font-size: 17px;
+    }
+}
+@media (max-width: 1037px) {
+    body {
+        font-size:15px;
+    }
+    .links nav li{
+        font-size: 15px;
+    }
+    
+}
+@media (max-width: 995px) {
+    body {
+        font-size:13px;
+    }
+    .links nav li, label{
+        font-size: 13px;
+    }
+   .links {
+        right: 2;
+        font-size:13px;
+    }
+    .links ol nav li {
+        font-size:13px;
+        right: 2;
+    }
+@media (max-width: 768px) {
+    body {
+        font-size:10px;
+    }
+    .links nav li, label{
+        font-size: 10px;
+    }
+    input {
+        padding: 0px;
+    }
+
+}
+}
+@media (max-width: 663px) {
+    body {
+        font-size:13px;
+    }
+    .links nav li, label{
+        font-size: 13px;
+    }
+   .links {
+        right: 2;
+        font-size:13px;
+    }
+    .links ol nav li {
+        font-size:13px;
+        right: 2;
+    }
+}
+@media (max-width: 648px) {
+    body {
+        font-size:10px;
+    }
+   .links {
+        right: 2;
+        font-size:10px;
+    }
+    .links ol nav li {
+        font-size:10px;
+        right: 2;
+    }
+}
+@media (max-width: 500px) {
+    body {
+        font-size:13px;
+    }
+    .links nav li, label{
+        font-size: 13px;
+    }
+   .links {
+        right: 3;
+        font-size:10px;
+    }
+    .links ol nav li {
+        font-size:10px;
+        right: 3;
+    }
+    legend {
+    font-size:10px;
+    }
+}
+@media (max-width: 375px) {
+    body {
+        font-size:7px;
+    }
+   .links {
+        right: 2;
+        font-size:7px;
+    }
+    .links ol nav li {
+        font-size:7px;
+        right: 2;
+        width:0px;
+    }
+    legend {
+    font-size:7px;
+}
+
+}
