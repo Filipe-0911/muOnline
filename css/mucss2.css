@@ -28,3 +28,9 @@ body {
 .alinhar-centro{
     text-align: center !important;
 }
+
+@media only screen and (max-width:820px) {
+    .cadastro{
+        display:block !important;
+    }
+}
