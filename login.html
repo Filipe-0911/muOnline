@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>Página de Login</title>
-    <link rel="stylesheet" href="css/mucss.css" />
+    <link rel="stylesheet" href="css/mucss2.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,70 +15,60 @@
 </head>
 
 <body>
-	<header>
-		<nav class="navbar navbar-expand-lg bg-body-tertiary">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Mu Online</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="index.html">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="cadastro.html">Cadastro</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="login.html">Login</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Mu Online</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cadastro.html">Cadastro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main>
-        <div>
-            <h1> Login </h1>
-        </div>
-        <div class=login>
-            <form>
-		<fieldset>	
-			<legend>Dados do Login</legend>
-                <label>Login:
-                    </br>
-                    <input type="text" name="Nome" required />
-                </label>
-                <label> Senha:
-                    </br>
-                    <input type="password" name="senha" required />
-                </label>
-                </br>
-                <button>Login</button>
-        </div>
-	</fieldset>
-        </form>
-        <!--Texto <strong>qualquer</strong> <em>para usar</em> como <del>exemplo</del> desse 1<sub>meu deus do</sub> <sup>céu</sup> <mark>curso maravilhoso.</mark>
-        <br/>
-        <small>Segunda frase para exemplificar.</small>-->
-        <div class="opinioes">
-            <form action="páginas/login.html" method="GET">
-		<fieldset>
-		<legend>Área de opiniões</legend>
-                <textarea name="opnioes" style="width:200px;height:200px" required>		</textarea>
-                </br>
-                <button> Enviar Opinião. </button>
-		</fieldset>
+        <section class="conteudo">
+            <form class="row row-cols-lg-auto g-3 align-items-center">
+                <div class="col-md-12">
+                    <div class="form-check">
+                        <h5 class="titulo__login">Já é cadastrado? Faça o login!</h5>
+                        <label class="form-label" for="inlineFormInputGroupUsername">Login</label>
+                        <input type="text" class="form-control" placeholder="Digite o usuário">
+                        <label class="form-label" for="inlineFormInputGroupUsername">Senha</label>
+                        <input type="password" class="form-control" placeholder="Digite a senha">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                            <label class="form-check-label" for="inlineFormCheck">
+                                Gravar dados
+                            </label>
+                            <div class="col-12 alinhar-centro">
+                                <button type="submit" class="btn btn-primary">Login</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
-        </div>
+        </section>
     </main>
 </body>
 <footer class="footer">
-    <div class="direitos">
+    <div>
         Direitos Autorais: Filipe de Bianchi Andrade
     </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </footer>
 
 </html>

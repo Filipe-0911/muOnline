@@ -20,13 +20,24 @@ body {
     gap: 5em;
     margin:auto 5%;
 }
-
 .login {
     width:80%;
-
 }
 .alinhar-centro{
     text-align: center !important;
+}
+.conteudo {
+    margin: auto 40% !important;
+    text-align: center;
+    color: var(--branco);
+}
+.footer {
+    position: absolute;
+    color: #FFF;
+    width: 100%;  
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 50px;
 }
 
 @media only screen and (max-width:820px) {
