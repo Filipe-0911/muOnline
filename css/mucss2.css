@@ -1,0 +1,30 @@
+:root {
+    --branco: #fff;
+}
+
+.texto {
+    color: var(--branco);
+}
+
+body {
+    margin:0px;
+    background-image: url(../img/wallpaper2-mu.jpg);
+    color:white;
+}
+
+.cadastro {
+    display:flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-around;
+    gap: 5em;
+    margin:auto 5%;
+}
+
+.login {
+    width:80%;
+
+}
+.alinhar-centro{
+    text-align: center !important;
+}
