@@ -42,6 +42,7 @@ body {
 
 .conteudo__principal {
     margin-bottom: 3em;
+    height: 100vw;
 }
 
 @media only screen and (max-width:820px) {
